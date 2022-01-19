@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
+import axios from 'axios'
+import { API_KEY} from './constants.js'
+
+
 
 function App() {
+ 
+ 
+ useEffect(()=> {
+  axios.get(`${API_KEY}`)
+ }, [])
+ 
   return (
     <div className="App">
       <p>
