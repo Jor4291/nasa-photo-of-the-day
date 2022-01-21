@@ -32,9 +32,9 @@ function App() {
       <h1> Nasa's Photo of the Day!</h1>
 
       <TopContent data = {data} />
+      <br></br>
       <Images data = {data} />
-      <br>
-      </br>
+      <br></br>
       <BottomContent data = {data} />
     
     </div>
