@@ -3,7 +3,8 @@ import "./App.css";
 import axios from 'axios'
 import { API_KEY } from './Constants.js'
 import Images from "./Images"
-import TextContent from "./TextContent"
+import TopContent from "./TopContent";
+import BottomContent from "./BottomContent";
 
 
 
@@ -29,9 +30,12 @@ function App() {
   return (
     <div className="App">
       <h1> Nasa's Photo of the Day!</h1>
-      
+
+      <TopContent data = {data} />
       <Images data = {data} />
-      <TextContent data = {data} />
+      <br>
+      </br>
+      <BottomContent data = {data} />
     
     </div>
   );
