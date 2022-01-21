@@ -1,13 +1,17 @@
 import styled from 'styled-components';
 import React from 'react'
 
-const StyledImages = styled.image`
+const StyledImages = styled.div`
+
+margin-top: 20px;
+margin-bottom: 10px;
+margin-left: 200px;
+margin-right:200px;
 
 display: flex;
-  /* height: 250px; */
   align-items: center;
   justify-content: center;
-  border: 2px red solid;
+  
 `
 export default function Images(props) {
     

@@ -12,6 +12,7 @@ display: flex;
 font-size: 16px;
 letter-spacing: 2px;
 word-spacing: 2px;
+line-spacing: 8px;
 color: #2E2E2E;
 font-weight: 700;
 text-decoration: none;
@@ -19,6 +20,10 @@ font-style: normal;
 font-variant: normal;
 text-transform: capitalize;
 background-color: #C7C7C7;
+padding-left: 200px;
+padding-right: 200px;
+padding-top: 100px;
+padding-bottom: 100px;
 `
 
 

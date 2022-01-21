@@ -7,7 +7,7 @@ display: flex;
     justify-content: center;
     align-item: center;
     font-family: Georgia, serif;
-font-size: 16px;
+font-size: 26px;
 letter-spacing: 2px;
 word-spacing: 2px;
 color: #2E2E2E;
@@ -16,6 +16,9 @@ text-decoration: none;
 font-style: normal;
 font-variant: normal;
 text-transform: capitalize;
+padding-top: 50px;
+padding-bottom: 50px;
+background-color:  #C7C7C7;
     `
 
 
